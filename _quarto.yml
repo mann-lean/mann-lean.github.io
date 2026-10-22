@@ -1,0 +1,20 @@
+# This file controls the global layout, themes, and navigation bar of your website. 
+project:
+  type: website
+  output-dir: docs   # Tells Quarto to output final files into a "docs" folder
+
+website:
+  title: "Mann | Data Scientist"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: pages/about.qmd
+        text: About
+      - href: pages/projects.qmd
+        text: Project
+
+format:
+  html:
+    theme: cosmo     # Try clean technical themes like cosmo, flatly, or slate
+    toc: true        # Generates a table of contents for pages

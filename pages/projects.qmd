@@ -1,0 +1,23 @@
+---
+title: "Data Science Projects"
+---
+
+## 📈 Project 1: House Price Prediction Pipeline
+In this project, I engineered features and trained a Random Forest model to predict real estate prices using Python.
+
+```{{python}}
+# This code executes live when your website builds!
+import pandas as pd
+import numpy as np
+
+# Sample data generation to show it works
+df = pd.DataFrame({
+    'Rooms': [2, 3, 4, 3],
+    'Price_USD': [250000, 310000, 415000, 295000]
+})
+df.head()
+```
+
+### 📊 Project 2: Interactive Explanatory Data Analysis
+Below is an interactive chart showcasing how variables correlate in our sample environment.
+*(Tip: You can use Plotly or Seaborn blocks here to make your website interactive!)*
