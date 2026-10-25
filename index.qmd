@@ -3,8 +3,11 @@ title: "Mann"
 subtitle: "Aspiring Data Scientist"
 about:
   template: jolla    # "jolla" centers your headshot and social buttons beautifully
-  image: profile.png # Put a clear headshot in your root folder
+  image: assets/profile.jpg # Put a clear headshot in your root folder
   links:
+    - icon: email
+      text: 📧Email
+      href: mailto:mannk7062@gmail.com
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com
@@ -13,12 +16,6 @@ about:
       href: https://github.com
 ---
 
-## 👋 Hello!
-I am a recent Data Science graduate passionate about turning messy datasets into actionable business insights. I specialize in predictive modeling, exploratory data analysis (EDA), and machine learning pipelines.
-
-### 🎓 Education
-- **B.S. in Data Science** | University of Analytics (2022 - 2026)
-
-### 🛠️ Technical Toolkit
-- **Languages:** Python (Pandas, NumPy, Scikit-Learn), SQL, R
-- **Tools:** Git, Tableau, Docker, Jupyter Notebooks
+<!-- ## 👋 Hello!
+I am a recent Data Science graduate passionate about turning messy datasets into actionable business insights. 
+I specialize in predictive modeling, exploratory data analysis (EDA), and machine learning pipelines. -->

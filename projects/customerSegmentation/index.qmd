@@ -1,0 +1,14 @@
+---
+title: "Customer Segmentation"
+subtitle: "[{{< fa brands github >}}GitHub Repository](https://github.com/mann-lean/customerSegmentation) | [{{< fa rocket >}} Live Dashboard](https://customersegmentationsolutions.streamlit.app/)"
+description: "End-to-end ML segmentation engine using RFM modeling, Python, and Power BI to drive a projected 10.01% revenue uplift via targeted business strategies."
+date: "2026-08-15"
+categories: [Radom Forest, KNN, Power BI , Python]
+image: preview.png
+---
+
+### Project Overview
+End-to-end ML segmentation engine using RFM modeling, Python, and Power BI to drive a projected 10.01% revenue uplift via targeted business strategies.."**
+
+### Architecture Layout
+Add your system design diagrams, performance benchmarks, and code snippets below.

@@ -1,0 +1,14 @@
+---
+title: "NYC Tip Prediction"
+subtitle: "[{{< fa brands github >}}GitHub Repository](https://github.com/mann-lean/data-science-project/tree/main/nycTaxiProject) | [{{< fa rocket >}} Live Dashboard](https://ts-fontend.vercel.app/)"
+description: "An end-to-end production RAG system leveraging LlamaIndex, Qdrant vector database, and FastAPI, optimized for massive internal documentation spaces."
+date: "2026-01-15"
+categories: [XGB, SGD, ML , Python, Docker]
+image: preview.png
+---
+
+### Project Overview
+Provide a punchy summary here. Use metrics first: **"Achieved a 45% reduction in hallucination rates compared to base GPT-4 implementations."**
+
+### Architecture Layout
+Add your system design diagrams, performance benchmarks, and code snippets below.

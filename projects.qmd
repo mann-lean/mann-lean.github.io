@@ -1,0 +1,17 @@
+---
+title: "Data Science & Engineering Projects"
+subtitle: "End to End Production-ready applications."
+page-layout: full
+listing:
+  contents: projects
+  sort: "date desc"
+  type: grid
+  grid-columns: 3             # 3-column layout provides a great density for dashboards
+  image-height: 200px        # Fixed height keeps the grid perfectly aligned
+  categories: true           # Clicking a tech tag filters your projects instantly
+  sort-ui: false             # Hidden to keep the focus curated
+  filter-ui: true            # Instant dynamic search box for recruiters
+  fields: [image, title, description, categories] # Lean fields built for scannability
+title-block-banner: "#0f172a" # Deep slate/navy premium background banner
+title-block-banner-color: "#ffffff"
+---

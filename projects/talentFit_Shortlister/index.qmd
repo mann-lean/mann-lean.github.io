@@ -1,0 +1,14 @@
+---
+title: "TalentFit Shortlister"
+subtitle: "[{{< fa brands github >}}GitHub Repository](https://github.com) | [{{< fa rocket >}} Live Dashboard](https://streamlit.app)"
+description: "An end-to-end production RAG system leveraging LlamaIndex, Qdrant vector database, and FastAPI, optimized for massive internal documentation spaces."
+date: "2025-04-15"
+categories: [Vector DBs, Python, BERT]
+image: preview.png
+---
+
+### Project Overview
+Provide a punchy summary here. Use metrics first: **"Achieved a 45% reduction in hallucination rates compared to base GPT-4 implementations."**
+
+### Architecture Layout
+Add your system design diagrams, performance benchmarks, and code snippets below.

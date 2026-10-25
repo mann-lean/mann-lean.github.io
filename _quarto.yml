@@ -4,17 +4,29 @@ project:
   output-dir: docs   # Tells Quarto to output final files into a "docs" folder
 
 website:
-  title: "Mann | Data Scientist"
+  title: "Mann"
+  favicon: "assets/profile.jpg"
+  
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - href: pages/about.qmd
         text: About
-      - href: pages/projects.qmd
-        text: Project
+      - href: projects.qmd
+        text: Projects
+      - href: pages/cv.qmd
+        text: Résumé
 
+  page-footer:       # Aligned directly under 'website:'
+    center: "© Mann. 2026."
+         
 format:
   html:
-    theme: cosmo     # Try clean technical themes like cosmo, flatly, or slate
-    toc: true        # Generates a table of contents for pages
+    theme:      # Try clean technical themes like cosmo, flatly, or slate
+      light: cosmo
+      dark: [cosmo, css/theme_dark_custom.scss]
+
+    # toc: true        # Generates a table of contents for pages
+    # css: styles.css
+    
