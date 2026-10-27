@@ -21,3 +21,55 @@ p.description {
   font-style: italic !important;
 }
 
+/* Distinct badge style for tool categories */
+.quarto-grid .listing-categories .listing-category {
+  background-color: #2c3e50;
+  color: #18bc9c;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border: 1px solid rgba(24, 188, 156, 0.3);
+}
+
+/*-- scss:rules --*/
+
+/* Base Card Elevation (Transitions & Cursor) */
+.quarto-listing-container-grid .card,
+.list.grid .card,
+.quarto-grid-item.card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  cursor: pointer;
+}
+
+/* Light Mode Hover (Soft dark drop shadow) */
+body:not(.quarto-dark) .quarto-listing-container-grid .card:hover,
+body:not(.quarto-dark) .list.grid .card:hover,
+body:not(.quarto-dark) .quarto-grid-item.card:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18) !important;
+}
+
+/* Darkly Theme Hover (Teal glow + border accent instead of black shadow) */
+body.quarto-dark .quarto-listing-container-grid .card:hover,
+body.quarto-dark .list.grid .card:hover,
+body.quarto-dark .quarto-grid-item.card:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 10px 25px rgba(24, 188, 156, 0.25) !important;
+  border-color: rgba(24, 188, 156, 0.5) !important;
+}
+
+/* Darkly Category Badges Visibility Adjustment */
+body.quarto-dark .card .listing-category {
+  background-color: #375a7f !important; /* Darkly's accent navy */
+  color: #7cd9c1 !important;            /* Darkly's vibrant teal */
+  border-color: rgba(0, 188, 140, 0.4) !important;
+}
+
+.quarto-grid .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}

@@ -1,6 +1,6 @@
 ---
-title: "Data Science & Engineering Projects"
-subtitle: "End to End Production-ready applications."
+title: "Engineering & Applied Machine Learning"
+subtitle: "Production ML pipelines, real-time inference microservices, and interactive analytical products built with reproducible MLOps standards."
 page-layout: full
 listing:
   contents: projects
@@ -8,10 +8,10 @@ listing:
   type: grid
   grid-columns: 2             # 3-column layout provides a great density for dashboards
   image-height: 200px        # Fixed height keeps the grid perfectly aligned
-  categories: true           # Clicking a tech tag filters your projects instantly
+  categories: unnumbered           # Clicking a tech tag filters your projects instantly
   sort-ui: false             # Hidden to keep the focus curated
   filter-ui: true            # Instant dynamic search box for recruiters
-  fields: [image, title, description, categories] # Lean fields built for scannability
+  fields: [image, title, description, categories, reading-time] # Lean fields built for scannability
 title-block-banner: "#0f172a" # Deep slate/navy premium background banner
 title-block-banner-color: "#ffffff"
 ---
