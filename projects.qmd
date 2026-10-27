@@ -6,7 +6,7 @@ listing:
   contents: projects
   sort: "date desc"
   type: grid
-  grid-columns: 3             # 3-column layout provides a great density for dashboards
+  grid-columns: 2             # 3-column layout provides a great density for dashboards
   image-height: 200px        # Fixed height keeps the grid perfectly aligned
   categories: true           # Clicking a tech tag filters your projects instantly
   sort-ui: false             # Hidden to keep the focus curated

@@ -5,7 +5,7 @@ project:
 
 website:
   title: "Mann"
-  favicon: "assets/profile.jpg"
+  favicon: "assets/fv.png"
   
   navbar:
     right:
@@ -24,9 +24,9 @@ website:
 format:
   html:
     theme:      # Try clean technical themes like cosmo, flatly, or slate
-      light: cosmo
-      dark: [cosmo, css/theme_dark_custom.scss]
+      light: flatly
+      dark: [flatly, css/theme_dark_custom.scss]
 
     # toc: true        # Generates a table of contents for pages
-    # css: styles.css
+    css: css/styles.scss
     
