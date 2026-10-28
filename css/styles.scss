@@ -73,3 +73,248 @@ body.quarto-dark .card .listing-category {
   object-fit: cover;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
+
+/*-- scss:rules --*/
+
+/* Contact Container & Spacing */
+.contact-container {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+/* Left Column Styling */
+.contact-info-col {
+  padding-right: 1.5rem;
+
+  .contact-header h3 {
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  .contact-details {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    .detail-item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      .icon-circle {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: rgba(24, 188, 156, 0.12);
+        color: #18bc9c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+      }
+
+      .label {
+        display: block;
+        font-size: 0.78rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        opacity: 0.7;
+      }
+
+      .value {
+        font-weight: 600;
+        font-size: 0.95rem;
+
+        a {
+          color: inherit;
+          text-decoration: none;
+          &:hover {
+            color: #18bc9c;
+          }
+        }
+      }
+    }
+  }
+
+  .social-connect {
+    h4 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+
+    .social-pills {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+
+      .pill-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.45rem 1rem;
+        border-radius: 30px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        text-decoration: none;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        color: inherit;
+        transition: all 0.2s ease;
+
+        &:hover {
+          background-color: #18bc9c;
+          border-color: #18bc9c;
+          color: #ffffff;
+          transform: translateY(-2px);
+        }
+      }
+    }
+  }
+}
+
+/* Right Column: Modern Card & Form */
+.contact-form-col {
+  .form-card {
+    padding: 2rem;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+
+    .form-label {
+      font-weight: 600;
+      font-size: 0.85rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .form-control {
+      border-radius: 8px;
+      padding: 0.65rem 0.9rem;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      font-size: 0.92rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+
+      &:focus {
+        border-color: #18bc9c;
+        box-shadow: 0 0 0 3px rgba(24, 188, 156, 0.2);
+      }
+    }
+
+    .btn-submit {
+      background-color: #18bc9c;
+      color: #ffffff;
+      border: none;
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      font-weight: 600;
+      margin-top: 0.5rem;
+      transition: background-color 0.2s, transform 0.2s;
+
+      &:hover {
+        background-color: #128f76;
+        transform: translateY(-1px);
+      }
+    }
+  }
+}
+
+/* Dark Mode (Darkly Theme) Adjustments */
+body.quarto-dark {
+  .contact-info-col {
+    .social-pills .pill-btn {
+      border-color: rgba(255, 255, 255, 0.18);
+      background: rgba(255, 255, 255, 0.04);
+    }
+  }
+
+  .contact-form-col .form-card {
+    background: #222222;
+    border-color: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+    .form-control {
+      background-color: #2e2e2e;
+      border-color: #444444;
+      color: #ffffff;
+
+      &::placeholder {
+        color: #888888;
+      }
+
+      &:focus {
+        border-color: #00bc8c;
+        box-shadow: 0 0 0 3px rgba(0, 188, 140, 0.25);
+      }
+    }
+  }
+}
+
+/*-- scss:rules --*/
+
+/* Projects Page Collaboration CTA Banner */
+.project-collab-cta {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(44, 62, 80, 0.05) 0%, rgba(24, 188, 156, 0.08) 100%);
+  border: 1px solid rgba(24, 188, 156, 0.2);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.03);
+
+  .collab-content {
+    max-width: 680px;
+    margin: 0 auto;
+
+    h3 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      font-size: 1rem;
+      opacity: 0.8;
+      margin-bottom: 1.75rem;
+    }
+
+    .btn-collab {
+      display: inline-flex;
+      align-items: center;
+      background-color: #18bc9c;
+      color: #ffffff !important;
+      padding: 0.7rem 1.6rem;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: all 0.25s ease;
+      box-shadow: 0 4px 12px rgba(24, 188, 156, 0.3);
+
+      &:hover {
+        background-color: #128f76;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 18px rgba(24, 188, 156, 0.4);
+      }
+    }
+  }
+}
+
+/* Darkly adjustments for the CTA */
+body.quarto-dark .project-collab-cta {
+  background: linear-gradient(135deg, rgba(34, 34, 34, 0.8) 0%, rgba(0, 188, 140, 0.08) 100%);
+  border-color: rgba(0, 188, 140, 0.25);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+  .btn-collab {
+    background-color: #00bc8c;
+    box-shadow: 0 4px 14px rgba(0, 188, 140, 0.35);
+
+    &:hover {
+      background-color: #009970;
+    }
+  }
+}
+
+
