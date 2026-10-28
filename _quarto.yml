@@ -17,6 +17,8 @@ website:
         text: Projects
       - href: pages/cv.qmd
         text: Résumé
+      - href: pages/contact.qmd
+        text: Contact
 
   page-footer:       # Aligned directly under 'website:'
     center: "© Mann. 2026."

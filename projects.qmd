@@ -3,15 +3,33 @@ title: "Engineering & Applied Machine Learning"
 subtitle: "Production ML pipelines, real-time inference microservices, and interactive analytical products built with reproducible MLOps standards."
 page-layout: full
 listing:
-  contents: projects
-  sort: "date desc"
-  type: grid
-  grid-columns: 2             # 3-column layout provides a great density for dashboards
-  image-height: 200px        # Fixed height keeps the grid perfectly aligned
-  categories: unnumbered           # Clicking a tech tag filters your projects instantly
-  sort-ui: false             # Hidden to keep the focus curated
-  filter-ui: true            # Instant dynamic search box for recruiters
-  fields: [image, title, description, categories, reading-time] # Lean fields built for scannability
-title-block-banner: "#0f172a" # Deep slate/navy premium background banner
+  - id: project-grid
+    contents: projects
+    sort: "date desc"
+    type: grid
+    grid-columns: 2
+    image-height: 200px
+    categories: unnumbered
+    sort-ui: false
+    filter-ui: true
+    fields: [image, title, description, categories, reading-time]
+title-block-banner: "#0f172a"
 title-block-banner-color: "#ffffff"
 ---
+
+::: {#project-grid}
+:::
+
+::: {.column-page}
+```{=html}
+<div class="project-collab-cta">
+  <div class="collab-content">
+    <h3>Interested in collaborating or building a project together?</h3>
+    <p>Whether you're looking for an ML engineer, want to discuss model architecture, or have an open role, I'd love to connect.</p>
+    <a href="pages/contact.html" class="btn btn-collab">
+      <span>Get in Touch</span> <i class="bi bi-arrow-right ms-2"></i>
+    </a>
+  </div>
+</div>
+```
+:::
