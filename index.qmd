@@ -1,6 +1,8 @@
 ---
 title: "Mann"
-subtitle: "Aspiring Data Scientist"
+# subtitle: "Unlocking business value through advanced data analysis and machine learning."
+subtitle: "Associate Data Scientist & ML Systems Builder"
+
 about:
   template: jolla    # "jolla" centers your headshot and social buttons beautifully
   image: assets/profile.jpg # Put a clear headshot in your root folder
@@ -10,12 +12,116 @@ about:
       href: mailto:mannk7062@gmail.com
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: http://www.linkedin.com/in/mann-32718a1b9
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/mann-lean
+---
+::: {style="margin-top: -35px;"}
+I build production-grade machine learning pipelines, containerized inference APIs, and executive business intelligence dashboards. Focused on reproducible training workflows, MLOps best practices, and measurable business metrics.
+:::
+
+::: {style="margin: 1.5rem 0;"}
+[**View Featured Projects ↓**](#featured-work){.btn .btn-primary style="border-radius: 24px; padding: 0.6rem 1.4rem; font-weight: 600;"}
+[**View Résumé**](pages/cv.html){.btn .btn-outline-secondary style="border-radius: 24px; padding: 0.6rem 1.4rem; margin-left: 0.6rem;"}
+:::
+
 ---
 
-<!-- ## 👋 Hello!
-I am a recent Data Science graduate passionate about turning messy datasets into actionable business insights. 
-I specialize in predictive modeling, exploratory data analysis (EDA), and machine learning pipelines. -->
+::: {.column-page}
+
+## Core Technical Competencies
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+```{=html}
+<div class="competency-card">
+  <div class="comp-icon"><i class="bi bi-cpu-fill"></i></div>
+  <h4>Machine Learning & AI</h4>
+  <p class="text-muted">Classification, regression, RFM clustering, customer segmentation, ensemble methods, and transfer learning.</p>
+  <div class="comp-tags">
+    <span>Python</span> <span>Scikit-learn</span> <span>XGBoost</span> <span>PyTorch</span>
+  </div>
+</div>
+```
+:::
+
+::: {.g-col-12 .g-col-md-4}
+```{=html}
+<div class="competency-card">
+  <div class="comp-icon"><i class="bi bi-diagram-3-fill"></i></div>
+  <h4>MLOps & Deployment</h4>
+  <p class="text-muted">Reproducible data pipelines, containerized serving, experiment tracking, and automated CI/CD workflows.</p>
+  <div class="comp-tags">
+    <span>Docker</span> <span>MLflow</span> <span>DVC</span> <span>FastAPI</span> <span>GitHub Actions</span>
+  </div>
+</div>
+```
+:::
+
+::: {.g-col-12 .g-col-md-4}
+```{=html}
+<div class="competency-card">
+  <div class="comp-icon"><i class="bi bi-bar-chart-line-fill"></i></div>
+  <h4>Data Engineering & BI</h4>
+  <p class="text-muted">Star schema data modeling, automated ETL/feature engineering pipelines, and interactive executive reporting.</p>
+  <div class="comp-tags">
+    <span>PostgreSQL</span> <span>Pandas</span> <span>Power BI</span> <span>DAX</span> <span>Streamlit</span>
+  </div>
+</div>
+```
+:::
+
+:::
+
+---
+
+## Featured Work {#featured-work}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+```{=html}
+<div class="project-showcase-card">
+  <span class="badge-featured">End-to-End System</span>
+  <h3>E-Commerce Customer Segmentation & RFM Engine</h3>
+  <p class="project-summary">Hybrid <em>Cluster-Then-Predict</em> segmentation architecture delivering an estimated 10.01% revenue uplift by replacing blanket promotions with targeted behavioral marketing.</p>
+  <ul class="project-highlights">
+    <li>Automated RFM feature engineering with K-Means clustering and Random Forest classifier.</li>
+    <li>Enterprise Power BI star-schema dashboard paired with real-time Streamlit inference UI.</li>
+  </ul>
+  <div class="project-actions">
+    <a href="https://github.com/mann-lean/customerSegmentation" target="_blank" class="btn btn-sm btn-outline-primary"><i class="bi bi-github"></i> Codebase</a>
+    <a href="https://customersegmentationsolutions.streamlit.app/" target="_blank" class="btn btn-sm btn-primary"><i class="bi bi-rocket-takeoff-fill"></i> Live App</a>
+    <a href="projects/customerSegmentation/" class="btn btn-sm btn-link">Read Architecture →</a>
+  </div>
+</div>
+```
+:::
+
+::: {.g-col-12 .g-col-md-6}
+```{=html}
+<div class="project-showcase-card">
+  <span class="badge-featured">Flagship MLOps</span>
+  <h3>NYC Taxi Tip Prediction Pipeline</h3>
+  <p class="project-summary">Production-ready regression pipeline forecasting passenger tip amounts ($1.22 MAE). Integrated containerized model inference, automated tracking, and reproducible pipeline execution.</p>
+  <ul class="project-highlights">
+    <li>Benchmarked SGD, Random Forest, and XGBoost regressor architectures.</li>
+    <li>Containerized with Docker; versioned pipelines with DVC and tracked via MLflow.</li>
+  </ul>
+  <div class="project-actions">
+    <a href="https://github.com/mann-lean" target="_blank" class="btn btn-sm btn-outline-primary"><i class="bi bi-github"></i> Codebase</a>
+    <a href="projects/nyc_tip_prediction/" class="btn btn-sm btn-link">Read Architecture →</a>
+  </div>
+</div>
+```
+:::
+
+:::
+```{=html}
+<div class="text-center mt-4">
+  <a href="projects.html" class="btn btn-outline-secondary" style="border-radius: 20px; padding: 0.5rem 1.5rem;">Explore All Projects & Architecture Breakdowns →</a>
+</div>
+```
+:::
