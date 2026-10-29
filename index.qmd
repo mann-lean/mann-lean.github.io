@@ -89,12 +89,12 @@ I build production-grade machine learning pipelines, containerized inference API
   <p class="project-summary">Hybrid <em>Cluster-Then-Predict</em> segmentation architecture delivering an estimated 10.01% revenue uplift by replacing blanket promotions with targeted behavioral marketing.</p>
   <ul class="project-highlights">
     <li>Automated RFM feature engineering with K-Means clustering and Random Forest classifier.</li>
-    <li>Enterprise Power BI star-schema dashboard paired with real-time Streamlit inference UI.</li>
+    <li>The architecture is fast because it makes an intentional trade-off by heavy math happens offline, simple math happens online.</li>
   </ul>
   <div class="project-actions">
     <a href="https://github.com/mann-lean/customerSegmentation" target="_blank" class="btn btn-sm btn-outline-primary"><i class="bi bi-github"></i> Codebase</a>
     <a href="https://customersegmentationsolutions.streamlit.app/" target="_blank" class="btn btn-sm btn-primary"><i class="bi bi-rocket-takeoff-fill"></i> Live App</a>
-    <a href="projects/customerSegmentation/" class="btn btn-sm btn-link">Read Architecture →</a>
+    <a href="projects/customerSegmentation/" class="btn btn-sm btn-link">Case Study →</a>
   </div>
 </div>
 ```
@@ -112,7 +112,7 @@ I build production-grade machine learning pipelines, containerized inference API
   </ul>
   <div class="project-actions">
     <a href="https://github.com/mann-lean" target="_blank" class="btn btn-sm btn-outline-primary"><i class="bi bi-github"></i> Codebase</a>
-    <a href="projects/nyc_tip_prediction/" class="btn btn-sm btn-link">Read Architecture →</a>
+    <a href="projects/nyc_tip_prediction/" class="btn btn-sm btn-link">Case Study →</a>
   </div>
 </div>
 ```

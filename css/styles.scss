@@ -435,7 +435,7 @@ body.quarto-dark {
 
 /*-- scss:rules --*/
 
-/* 1. Tighten space between Navbar and Profile Picture */
+/* Tighten space between Navbar and Profile Picture */
 #quarto-content,
 .quarto-about-jolla {
   padding-top: 1.25rem !important;
@@ -447,24 +447,3 @@ body.quarto-dark {
   margin-bottom: 1rem !important;
 }
 
-/* 2. Tighten space between Profile Title/Subtitle/Links and Description */
-// .quarto-about-jolla .about-entity {
-//   margin-bottom: 0 !important;
-// }
-
-// .quarto-about-jolla .about-links {
-//   margin-top: 0.75rem !important;
-//   margin-bottom: 1rem !important;
-// }
-
-// /* Ensure the subtitle sits closer to your name */
-// .quarto-about-jolla .about-entity .about-subtitle {
-//   margin-top: 0.25rem !important;
-//   margin-bottom: 0.5rem !important;
-// }
-
-// /* Tighten the description paragraph container */
-// .quarto-about-jolla .about-contents {
-//   margin-top: 0 !important;
-//   padding-top: 0 !important;
-// }
