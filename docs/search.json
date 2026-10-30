@@ -1,0 +1,212 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Engineering & Applied Machine Learning",
+    "section": "",
+    "text": "E-Commerce Customer Segmentation & RFM Engine\n\n5 min\n\n\nCustomer Segmentation\n\nRFM Analysis\n\nData Analytics\n\nK Means-clustering\n\nRandom Forest Classifier\n\nUnsupervised Learning\n\nSupervised Learning\n\nPower BI\n\nPython\n\n\n\nAn end-to-end customer intelligence platform that transforms raw retail transactions into highly targeted marketing strategies. By combining unsupervised clustering…\n\n\n\n\n\n\n\n\n\n\n\n\nNYC Taxi Tip Amount Prediction: End to End Data ML Pipeline\n\n4 min\n\n\nPredictive-analytics\n\nRegression-analysis\n\nML\n\nPython\n\nDocker\n\nMLOps\n\n\n\nA production-ready MLOps and Machine Learning pipeline that forecasts passenger tip amounts ($1.22 MAE) to optimize ride-share driver profits. Shifted a reactive…\n\n\n\n\n\n\n\n\n\n\n\n\nTalentFit Shortlister: AI-Powered Resume Screening System\n\n2 min\n\n\nPython\n\nAI\n\nNLP\n\nTF-IDF/BERT\n\nAutomation\n\nFAST API\n\nReact Js\n\n\n\nAn AI-powered resume screening system built with React and Python. Uses BERT and TF-IDF to automatically parse bulk PDFs, compute semantic match scores against job…\n\n\n\n\n\nNo matching items\n\n\n\n  \n    Interested in collaborating or building a project together?\n    Whether you're looking for an ML engineer, want to discuss model architecture, or have an open role, I'd love to connect.\n    \n      Get in Touch"
+  },
+  {
+    "objectID": "projects.html#project-1-house-price-prediction-pipeline",
+    "href": "projects.html#project-1-house-price-prediction-pipeline",
+    "title": "Data Science Projects",
+    "section": "",
+    "text": "In this project, I engineered features and trained a Random Forest model to predict real estate prices using Python.\n```{python}\n# This code executes live when your website builds!\nimport pandas as pd\nimport numpy as np\n\n# Sample data generation to show it works\ndf = pd.DataFrame({\n    'Rooms': [2, 3, 4, 3],\n    'Price_USD': [250000, 310000, 415000, 295000]\n})\ndf.head()\n```\n\n\nBelow is an interactive chart showcasing how variables correlate in our sample environment. (Tip: You can use Plotly or Seaborn blocks here to make your website interactive!)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mann",
+    "section": "",
+    "text": "I build production-grade machine learning pipelines, containerized inference APIs, and executive business intelligence dashboards. Focused on reproducible training workflows, MLOps best practices, and measurable business metrics."
+  },
+  {
+    "objectID": "index.html#hello",
+    "href": "index.html#hello",
+    "title": "Mann",
+    "section": "",
+    "text": "I am a recent Data Science graduate passionate about turning messy datasets into actionable business insights. I specialize in predictive modeling, exploratory data analysis (EDA), and machine learning pipelines."
+  },
+  {
+    "objectID": "pages/projects.html",
+    "href": "pages/projects.html",
+    "title": "Data Science & Engineering Projects",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "pages/projects.html#project-1-house-price-prediction-pipeline",
+    "href": "pages/projects.html#project-1-house-price-prediction-pipeline",
+    "title": "Data Science Projects",
+    "section": "",
+    "text": "In this project, I engineered features and trained a Random Forest model to predict real estate prices using Python.\n```{python}\n# This code executes live when your website builds!\nimport pandas as pd\nimport numpy as np\n\n# Sample data generation to show it works\ndf = pd.DataFrame({\n    'Rooms': [2, 3, 4, 3],\n    'Price_USD': [250000, 310000, 415000, 295000]\n})\ndf.head()\n```\n\n\nBelow is an interactive chart showcasing how variables correlate in our sample environment. (Tip: You can use Plotly or Seaborn blocks here to make your website interactive!)"
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "Mann",
+    "section": "",
+    "text": "📧Email\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nMy technical foundation began with a Diploma in Computer Engineering, which established the systems-level thinking I carried into my B.Tech in Artificial Intelligence and Data Science. Early internship experience provided a strong grounding in dataset cleaning, exploratory data analysis, and feature engineering. However, I quickly realized that building impactful data solutions required moving beyond isolated model training.\nDriven to bridge the gap between statistical modeling and usable software, I independently upskilled in MLOps, full-stack integration, and Generative AI orchestration. This self-directed focus shifted my trajectory from writing standard analytical scripts to engineering containerized, end-to-end systems. Today, my work focuses on deploying robust applications—from the tracking and versioning of the NYC Taxi Tip Predictor to the interactive dashboards of my E-Commerce Customer Segmentation engine and the NLP integrations powering the TalentFit Shortlister.."
+  },
+  {
+    "objectID": "pages/about.html#hello",
+    "href": "pages/about.html#hello",
+    "title": "Mann",
+    "section": "",
+    "text": "I am a recent Data Science graduate passionate about turning messy datasets into actionable business insights. I specialize in predictive modeling, exploratory data analysis (EDA), and machine learning pipelines.\n\n\n\nB.S. in Data Science | University of Analytics (2022 - 2026)\n\n\n\n\n\nLanguages: Python (Pandas, NumPy, Scikit-Learn), SQL, R\nTools: Git, Tableau, Docker, Jupyter Notebooks"
+  },
+  {
+    "objectID": "projects/nyc_tip_prediction/index.html",
+    "href": "projects/nyc_tip_prediction/index.html",
+    "title": "NYC Taxi Tip Amount Prediction: End to End Data ML Pipeline",
+    "section": "",
+    "text": "The NYC Taxi Tip Predictor is an end-to-end machine learning pipeline that predicts passenger tip amounts using historical NYC TLC data. Built to transition ride-share drivers from guesswork to a data-driven strategy, this system predicts high-yield zones and times to help drivers maximize their hourly earnings.\n\n\nFor ride-share and taxi drivers, the base fare covers the operational costs of the vehicle, but the tip amount dictates their actual profit. However, tipping behavior is highly volatile and unpredictable. Currently, drivers rely on intuition or simply chase high-volume areas, which often results in wasted fuel and time waiting for rides that yield poor tips.\nThis lack of actionable foresight creates specific pain points for two main groups: * For Drivers (Inefficiency): Drivers cannot easily identify which specific zones, times, or effective routes will yield the highest return on their time. They need data to know where to wait. * For Customers (Static Tipping): Customers are often prompted with rigid, static tip suggestions (e.g., 20%, 25%, 30%). Predicting an expected tip amount provides a dynamic, context-aware baseline that can help customers decide on a fair tip based on historical norms for that specific route and time.\nThe Solution:\nThis project introduces a predictive machine learning pipeline that shifts strategy from a reactive “guessing game” to a proactive, data-driven approach. By forecasting the exact tip amount based on spatial (pickup/drop-off zones) and temporal (time, day, rush hour) factors, this system empowers drivers to strategically position themselves in high-yield scenarios while offering transparent tip estimates for riders."
+  },
+  {
+    "objectID": "projects/talentFit_Shortlister/index.html",
+    "href": "projects/talentFit_Shortlister/index.html",
+    "title": "TalentFit Shortlister: AI-Powered Resume Screening System",
+    "section": "",
+    "text": "App Demo"
+  },
+  {
+    "objectID": "projects/customerSegmentation/index.html",
+    "href": "projects/customerSegmentation/index.html",
+    "title": "E-Commerce Customer Segmentation & RFM Engine",
+    "section": "",
+    "text": "An end-to-end ML customer segmentation engine utilizing a hybrid “Cluster-Then-Predict” (K-Means + Random Forest) architecture to drive a projected 10.01% revenue uplift. Features an automated RFM feature engineering backend, a low-latency live Streamlit web UI, and an enterprise Power BI reporting layer built."
+  },
+  {
+    "objectID": "projects/talentFit_Shortlister/index.html#key-features",
+    "href": "projects/talentFit_Shortlister/index.html#key-features",
+    "title": "TalentFit Shortlister: AI-Powered Resume Screening System",
+    "section": "✨ Key Features",
+    "text": "✨ Key Features\n\nBulk PDF Parsing: Seamlessly extract and clean textual content from multiple uploaded PDF resumes using pdfminer.\nDual-Engine Similarity Scoring:\n\nTF-IDF (Term Frequency-Inverse Document Frequency): Ensures essential industry keywords and hard skills from the JD are present in the resume.\nBERT (Bidirectional Encoder Representations from Transformers): Provides deep, semantic-level understanding of the resume’s context, evaluating the actual meaning behind a candidate’s experience.\n\nInteractive HR Dashboard: A React.js frontend that visually presents ranked candidates alongside their match percentages, allowing HR personnel to select top choices via simple checkboxes.\nAutomated Email Outreach: Utilizes Regular Expressions (RegEx) to extract contact details from selected PDFs and automatically dispatches interview invitations via SMTP integration.\n\n\n🧠 System Architecture & Workflow\n\nInput: HR uploads a batch of candidate PDFs and pastes the target Job Description into the React interface.\nExtraction: The backend parses the PDFs into raw text strings.\nNLP Processing: Both TF-IDF and BERT models compute cosine similarity scores between each resume and the JD.\nRanking: Resumes are ordered by their similarity scores and returned to the frontend.\nAutomation: Upon HR selection, the backend extracts candidate emails and triggers SMTP notifications."
+  },
+  {
+    "objectID": "projects/talentFit_Shortlister/index.html#project-overview",
+    "href": "projects/talentFit_Shortlister/index.html#project-overview",
+    "title": "TalentFit Shortlister: AI-Powered Resume Screening System",
+    "section": "Project Overview",
+    "text": "Project Overview\nIn today’s fast-paced recruitment environment, Human Resource (HR) professionals face the challenge of manually screening large volumes of resumes—a process that is both time-consuming and inefficient.\nTalentFit Shortlister is an intelligent, automated resume shortlisting web application. By leveraging Natural Language Processing (NLP) and machine learning-based similarity models, the system accurately matches bulk uploaded candidate resumes against a target Job Description (JD) without manual intervention. It closes the recruitment loop by automatically emailing the top-ranked candidates.\n\n🎯 The Core Problem & Solution\n\nThe Problem: Traditional ATS (Applicant Tracking Systems) often rely on rigid keyword matching, rejecting highly qualified candidates, while manual screening suffers from human fatigue and bias.\nThe Solution: A dual-engine machine learning approach. By combining keyword analysis with deep semantic understanding, TalentFit Shortlister ensures that candidates who have the right skills—even if phrased differently—are accurately evaluated, ranked, and contacted.\n\n\n\n✨ Key Features\n\nBulk PDF Parsing: Seamlessly extract and clean textual content from multiple uploaded PDF resumes using pdfminer.\nDual-Engine Similarity Scoring:\n\nTF-IDF (Term Frequency-Inverse Document Frequency): Ensures essential industry keywords and hard skills from the JD are present in the resume.\nBERT (Bidirectional Encoder Representations from Transformers): Provides deep, semantic-level understanding of the resume’s context, evaluating the actual meaning behind a candidate’s experience.\n\nInteractive HR Dashboard: A React.js frontend that visually presents ranked candidates alongside their match percentages, allowing HR personnel to select top choices via simple checkboxes.\nAutomated Email Outreach: Utilizes Regular Expressions (RegEx) to extract contact details from selected PDFs and automatically dispatches interview invitations via SMTP integration.\n\n\n\n🧠 System Architecture & Workflow\n\nInput: HR uploads a batch of candidate PDFs and pastes the target Job Description into the React interface.\nExtraction: The backend parses the PDFs into raw text strings.\nNLP Processing: Both TF-IDF and BERT models compute cosine similarity scores between each resume and the JD.\nRanking: Resumes are ordered by their similarity scores and returned to the frontend.\nAutomation: Upon HR selection, the backend extracts candidate emails and triggers SMTP notifications."
+  },
+  {
+    "objectID": "projects/nyc_tip_prediction/index.html#problem-statement",
+    "href": "projects/nyc_tip_prediction/index.html#problem-statement",
+    "title": "NYC Taxi Tip Amount Prediction: End to End Data ML Pipeline",
+    "section": "🚨 Problem Statement",
+    "text": "🚨 Problem Statement\nFor ride-share and taxi drivers, the base fare covers the operational costs of the vehicle, but the tip amount dictates their actual profit. However, tipping behavior is highly volatile and unpredictable. Currently, drivers rely on intuition or simply chase high-volume areas, which often results in wasted fuel and time waiting for rides that yield poor tips.\nThis lack of actionable foresight creates specific pain points for two main groups: - For Drivers (Inefficiency): Drivers cannot easily identify which specific zones, times, or effective routes will yield the highest return on their time. They need data to know where to wait. - For Customers (Static Tipping): Customers are often prompted with rigid, static tip suggestions (e.g., 20%, 25%, 30%). Predicting an expected tip amount provides a dynamic, context-aware baseline that can help customers decide on a fair tip based on historical norms for that specific route and time.\nThe Solution: This project introduces a predictive machine learning pipeline that shifts strategy from a reactive “guessing game” to a proactive, data-driven approach. By forecasting the exact tip amount based on spatial (pickup/drop-off zones) and temporal (time, day, rush hour) factors, this system empowers drivers to strategically position themselves in high-yield scenarios while offering transparent tip estimates for riders.\n\nArchitecture Layout\nAdd your system design diagrams, performance benchmarks, and code snippets below."
+  },
+  {
+    "objectID": "projects/nyc_tip_prediction/index.html#project-overview",
+    "href": "projects/nyc_tip_prediction/index.html#project-overview",
+    "title": "NYC Taxi Tip Amount Prediction: End to End Data ML Pipeline",
+    "section": "Project Overview",
+    "text": "Project Overview\nThe NYC Taxi Tip Predictor is an end-to-end machine learning pipeline that predicts passenger tip amounts using historical NYC TLC data. Built to transition ride-share drivers from guesswork to a data-driven strategy, this system predicts high-yield zones and times to help drivers maximize their hourly earnings.\n\n🚨 Problem Statement\nFor ride-share and taxi drivers, the base fare covers the operational costs of the vehicle, but the tip amount dictates their actual profit. However, tipping behavior is highly volatile and unpredictable. Currently, drivers rely on intuition or simply chase high-volume areas, which often results in wasted fuel and time waiting for rides that yield poor tips.\nThis lack of actionable foresight creates specific pain points for two main groups: * For Drivers (Inefficiency): Drivers cannot easily identify which specific zones, times, or effective routes will yield the highest return on their time. They need data to know where to wait. * For Customers (Static Tipping): Customers are often prompted with rigid, static tip suggestions (e.g., 20%, 25%, 30%). Predicting an expected tip amount provides a dynamic, context-aware baseline that can help customers decide on a fair tip based on historical norms for that specific route and time.\nThe Solution:\nThis project introduces a predictive machine learning pipeline that shifts strategy from a reactive “guessing game” to a proactive, data-driven approach. By forecasting the exact tip amount based on spatial (pickup/drop-off zones) and temporal (time, day, rush hour) factors, this system empowers drivers to strategically position themselves in high-yield scenarios while offering transparent tip estimates for riders."
+  },
+  {
+    "objectID": "projects/nyc_tip_prediction/index.html#objectives",
+    "href": "projects/nyc_tip_prediction/index.html#objectives",
+    "title": "NYC Taxi Tip Amount Prediction: End to End Data ML Pipeline",
+    "section": "🚀 Objectives",
+    "text": "🚀 Objectives\nThis portfolio piece was built to demonstrate a complete, end-to-end Machine Learning lifecycle, specifically focusing on:\n\nBusiness Value: Enables drivers and fleet managers to optimize routes and shift schedules based on predicted ROI rather than just ride volume, while also helping customers determine a fair tip amount based on historical data.\nAdvanced Feature Extraction: Extract meaningful insights from large volumes of data.\n\nEnd to End MLOps: Automates the complete ML lifecycle—from raw data ingestion and feature engineering to model training and evaluation.\nProduction-Ready: Features a fully containerized deployment, ensuring the model is scalable, reproducible, and easily updated.\nExperiment Tracking: Logging model hyperparameters, artifacts, and metrics (achieving a $1.22 MAE) using MLflow and DagsHub.\nReal-Time Inference Serving: Wrapping the trained model in a fully functional, styled Flask web application that instantly translates user input into actionable financial predictions."
+  },
+  {
+    "objectID": "projects/nyc_tip_prediction/index.html#development-workflow",
+    "href": "projects/nyc_tip_prediction/index.html#development-workflow",
+    "title": "NYC Taxi Tip Amount Prediction: End to End Data ML Pipeline",
+    "section": "🔄 Development Workflow",
+    "text": "🔄 Development Workflow\nThis project strictly adheres to a modular design pattern. To experiment with the pipeline or add new features, follow this standard sequence:\n\nUpdate config.yaml (paths/directories) and params.yaml (model hyperparameters).\nDefine data structures in the entity module.\nUpdate the ConfigurationManager within src/config.\nModify the relevant pipeline components (e.g., ingestion, transformation, training).\nIntegrate the updated components into the specific pipeline script.\nRegister the pipeline in main.py and update dvc.yaml to track the new execution graph.\nServe the updated model via the app.py Flask interface."
+  },
+  {
+    "objectID": "projects/nyc_tip_prediction/index.html#system-architecture",
+    "href": "projects/nyc_tip_prediction/index.html#system-architecture",
+    "title": "NYC Taxi Tip Amount Prediction: End to End Data ML Pipeline",
+    "section": "🏗️ System Architecture",
+    "text": "🏗️ System Architecture\nThis project is built using a modular, component-based architecture orchestrated by DVC (Data Version Control).\n\nData Ingestion: Automatically fetches and extracts the NYC Taxi dataset.\nData Validation: Enforces schema rules and generates a validation status. Acts as a “Circuit Breaker” to halt the pipeline if anomalous data is detected.\nData Transformation: Handles complex feature engineering:\n\nDatetime extraction (weekend flags, AM/PM, trip duration).\nCyclical encoding for pickup hours using sine/cosine transformations.\nSpatial feature engineering (airport zone mapping).\nTarget Encoding and Standard Scaling (saved as preprocessor.pkl to prevent data leakage during inference).\n\nModel Training: Trains an SGD Regressor, logging hyperparameters (alpha, penalty) to MLflow via DagsHub.\nModel Evaluation: Calculates regression metrics (RMSE, MAE, R2) and saves them to evaluation.json.\nInference Pipeline: A dedicated prediction engine wrapped in a Flask web application for real-time user predictions."
+  },
+  {
+    "objectID": "projects/customerSegmentation/index.html#the-vision-why-this-exists",
+    "href": "projects/customerSegmentation/index.html#the-vision-why-this-exists",
+    "title": "E-Commerce Customer Segmentation & RFM Engine",
+    "section": "💡 The Vision: Why this exists",
+    "text": "💡 The Vision: Why this exists\nRetailers bleed money by treating all customers equally. Sending a 20% discount to a VIP who was going to buy anyway destroys profit margins, while ignoring a fading loyalist guarantees silent churn.\nThis project is an intelligent end-to-end segmentation engine. It analyzes historical e-commerce buying habits using Recency, Frequency, and Monetary (RFM) metrics, automatically groups customers via Machine Learning algorithms (K-Means/Random Forest), and feeds those actionable personas into an enterprise reporting layer.\nThis dashboard goes beyond data visualization to act as a strategic decision-making engine. By executing the phased marketing recommendations generated by the model, businesses can achieve a projected 10.01% uplift in revenue."
+  },
+  {
+    "objectID": "projects/customerSegmentation/index.html#strategic-business-impact",
+    "href": "projects/customerSegmentation/index.html#strategic-business-impact",
+    "title": "E-Commerce Customer Segmentation & RFM Engine",
+    "section": "📈 Strategic Business Impact",
+    "text": "📈 Strategic Business Impact\nThis architecture goes beyond data visualization to act as a strategic decision-making engine. By translating machine learning segments into actionable marketing interventions, this application empowers stakeholders to make data-driven decisions, yielding a projected 10.01% increase in overall monthly revenue.\nThe December Playbook Overview:\n\nPhase 1 (Dec 10-20): Maximizes peak holiday volume by deploying white-glove service to Enterprise Whales (who drive 43.7% of revenue) and aggressively upselling Champions.\nPhase 2 (Dec 21-31): Executes post-holiday inventory liquidation by targeting price-sensitive New Customers, while strictly protecting the profit margins of higher-tier segments."
+  },
+  {
+    "objectID": "projects/customerSegmentation/index.html#the-technical-edge-cluster-then-predict-architecture",
+    "href": "projects/customerSegmentation/index.html#the-technical-edge-cluster-then-predict-architecture",
+    "title": "E-Commerce Customer Segmentation & RFM Engine",
+    "section": "🔬 The Technical Edge: “Cluster-Then-Predict” Architecture",
+    "text": "🔬 The Technical Edge: “Cluster-Then-Predict” Architecture\nMost standard portfolios deploy brittle, distance-based unsupervised models (like K-Means) directly to production. Those are computationally heavy and easily broken by high-value extreme outliers.\nThis project utilizes a highly scalable, two-stage MLOps architecture:\n\nOffline Discovery (Unsupervised + Heuristics): Historical RFM data was log-transformed, standard-scaled, and clustered using K-Means. Mathematical centroids were then combined with strict, visually verified business-logic rules to safely isolate outliers and generate highly accurate ground-truth labels.\nProduction Inference (Supervised RF): A Random Forest Classifier (RFC) was trained to learn these complex, non-linear segment boundaries.\nThe Deployment Advantage: Because tree-based models are natively immune to outliers, the live Streamlit dashboard bypasses clunky feature scaling entirely. It processes raw user inputs instantly to deliver lightning-fast, real-time segment predictions.\n\n\n🏗️ End-to-End System Architecture\n\n\n1. The Machine Learning Backend (Python)\n\nETL Pipeline: Extracted and cleaned the UCI Online Retail dataset (Dec 2009–Dec 2010), handling missing values and scaling variables.\nClustering: Deployed K-Means clustering to logically separate the customer base, mapping output labels to actionable business personas (e.g., Champions, At-Risk, Whales).\n\n\n\n2. The Interactive Web App (Streamlit)\n\nBuilt a dynamic front-end using Streamlit to allow data scientists and product managers to test the underlying RFM logic, view segment distributions, and interact with the Python prediction models in real-time.\n\n[Raw Transactions] ➔ [RFM Feature Engineering] ➔ [K-Means + Visual Heuristics] ➔ [Labeled Dataset]\n                                                                                        ↓\n                     [Model Artifact: rfc.joblib] ⟵ [Random Forest Classifier] ⟵ [Labeled Training]\n                                  ↓\n[Streamlit UI] ➔ [Live Raw RFM Input] ➔ [RFC Inference Engine] ➔ [Targeted Marketing Strategy]\n\n\n3. The Enterprise Reporting Layer (Power BI)\n\nData Modeling: Constructed a Star Schema connecting a central Fact_Transactions table with Dim_Customers and Dim_Calendar to mirror corporate Data Warehousing standards.\nExecutive Dashboard: Built a dynamic, 3-page Power BI report (.pbix file included in this repository) featuring AI decomposition trees and an exportable CRM targeting ledger for the marketing team to execute the Phase 1 and 2 email campaigns."
+  },
+  {
+    "objectID": "projects/customerSegmentation/index.html#dashboard-features",
+    "href": "projects/customerSegmentation/index.html#dashboard-features",
+    "title": "E-Commerce Customer Segmentation & RFM Engine",
+    "section": "🖥️ Dashboard Features",
+    "text": "🖥️ Dashboard Features\n\n📊 Analytics: Track overarching business KPIs (Total Revenue, Unique Customers, Average Basket Value).\n🤖 RFM Clustering: Analyze offline cluster centroids and 3D behavioral distribution maps.\n🔍 Robust Inference Engine: This Segmentation Dashboard can identify hidden customer behavior & also can deal with outlier customers\nLow Latency: The architecture is fast because it makes an intentional trade-off by heavy math happens offline, simple math happens online.\n🔍 Customer Lookup: Search individual user profiles to extract raw transactional ledgers and micro-patterns.\n🔮 ML Classification: A live inference simulator. Input raw RFM values to instantly predict a customer’s persona using the pre-trained Random Forest engine.\n⚙️ Building Process: A transparent look into the data engineering and algorithmic decisions behind the platform."
+  },
+  {
+    "objectID": "pages/contact.html",
+    "href": "pages/contact.html",
+    "title": "Get in Touch",
+    "section": "",
+    "text": "Let’s talk about everything!\nFeel free to reach out directly via email, connect on LinkedIn, or send a quick message through the form.\n\n  Profiles & Repositories\n  \n     GitHub\n     LinkedIn\n  \n\n\n\n    \n    \n    \n      Email\n      mannk7062@gmail.com\n    \n  \n  \n  \n    \n    \n      Location\n      Delhi, India (Available for Remote & Relocation)\n    \n  \n\n  \n\n\n\n\n\n\n  \n    \n    \n      Name\n      \n    \n\n    \n      Email\n      \n    \n\n    \n      Subject\n      \n    \n\n    \n      Message\n      \n    \n\n    \n      Send Message"
+  },
+  {
+    "objectID": "index.html#core-technical-competencies",
+    "href": "index.html#core-technical-competencies",
+    "title": "Mann",
+    "section": "Core Technical Competencies",
+    "text": "Core Technical Competencies\n\n\n\n  \n  Machine Learning & AI\n  Classification, regression, RFM clustering, customer segmentation, ensemble methods, and transfer learning.\n  \n    Python Scikit-learn XGBoost PyTorch\n  \n\n\n\n\n  \n  MLOps & Deployment\n  Reproducible data pipelines, containerized serving, experiment tracking, and automated CI/CD workflows.\n  \n    Docker MLflow DVC FastAPI GitHub Actions\n  \n\n\n\n\n  \n  Data Engineering & BI\n  Star schema data modeling, automated ETL/feature engineering pipelines, and interactive executive reporting.\n  \n    PostgreSQL Pandas Power BI DAX Streamlit"
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Mann",
+    "section": "Featured Work",
+    "text": "Featured Work\n\n\n\n  End-to-End System\n  E-Commerce Customer Segmentation & RFM Engine\n  Hybrid Cluster-Then-Predict segmentation architecture delivering an estimated 10.01% revenue uplift by replacing blanket promotions with targeted behavioral marketing.\n  \n    Automated RFM feature engineering with K-Means clustering and Random Forest classifier.\n    The architecture is fast because it makes an intentional trade-off by heavy math happens offline, simple math happens online.\n  \n  \n     Codebase\n     Live App\n    Case Study →\n  \n\n\n\n\n  Flagship MLOps\n  NYC Taxi Tip Prediction Pipeline\n  Production-ready regression pipeline forecasting passenger tip amounts ($1.22 MAE). Integrated containerized model inference, automated tracking, and reproducible pipeline execution.\n  \n    Benchmarked SGD, Random Forest, and XGBoost regressor architectures.\n    Containerized with Docker; versioned pipelines with DVC and tracked via MLflow.\n  \n  \n     Codebase\n    Case Study →\n  \n\n\n\n\n  Explore All Projects & Architecture Breakdowns →"
+  },
+  {
+    "objectID": "pages/about.html#the-journey-so-far",
+    "href": "pages/about.html#the-journey-so-far",
+    "title": "Mann",
+    "section": "",
+    "text": "My technical foundation began with a Diploma in Computer Engineering, which established the systems-level thinking I carried into my B.Tech in Artificial Intelligence and Data Science. Early internship experience provided a strong grounding in dataset cleaning, exploratory data analysis, and feature engineering. However, I quickly realized that building impactful data solutions required moving beyond isolated model training.\nDriven to bridge the gap between statistical modeling and usable software, I independently upskilled in MLOps, full-stack integration, and Generative AI orchestration. This self-directed focus shifted my trajectory from writing standard analytical scripts to engineering containerized, end-to-end systems. Today, my work focuses on deploying robust applications—from the tracking and versioning of the NYC Taxi Tip Predictor to the interactive dashboards of my E-Commerce Customer Segmentation engine and the NLP integrations powering the TalentFit Shortlister.."
+  },
+  {
+    "objectID": "pages/about.html#technical-philosophy-principles",
+    "href": "pages/about.html#technical-philosophy-principles",
+    "title": "Mann",
+    "section": "Technical Philosophy & Principles",
+    "text": "Technical Philosophy & Principles\n\n\n\n\n\n\n\nProduction-First Mindset\n\n\nA high-accuracy model is useless if it cannot be served reliably. I prioritize containerization with Docker, deterministic environments, and lightweight API endpoints.\n\n\n\n\n\n\n\n\n\nBusiness Value Over Complexity\n\n\nThe best algorithm is the one that solves the business bottleneck with the lowest maintenance burden. Simple, interpretable baselines always come first.\n\n\n\n\n\n\n\n\n\nReproducible Workflows\n\n\nData science requires strict version control. From data versioning with DVC to experiment tracking via MLflow, every step must be auditable and reproducible."
+  },
+  {
+    "objectID": "pages/about.html#experience-milestones",
+    "href": "pages/about.html#experience-milestones",
+    "title": "Mann",
+    "section": "Experience & Milestones",
+    "text": "Experience & Milestones\n\n\n  \n    \n    2025 - Present\n    \n      Production ML & Pipeline Engineering\n      Independent Applied Research & Projects\n      Built and deployed production-grade applications including an RFM Customer Intelligence Engine and containerized taxi fare regression services with automated CI/CD.\n    \n  \n\n  \n    \n    2022 - 2025\n    \n      Bachelor of Technology (B.Tech)\n      Artificial Intelligence and Data Science\n      Focused on applied mathematics, AI,ML,DL,RDBMS ,Big Data.\n    \n  \n\n  \n    \n    2019 - 2022\n    \n      Diploma in Computer Engineering\n      Computer Engineering\n      Focused on applied mathematics, data structures, algorithms, C++,Java,CN,DBMS & etc."
+  },
+  {
+    "objectID": "pages/about.html#beyond-the-terminal",
+    "href": "pages/about.html#beyond-the-terminal",
+    "title": "Mann",
+    "section": "Beyond the Terminal",
+    "text": "Beyond the Terminal\nWhen I am not training models or optimizing SQL queries, you will usually find me:\n\nAnalyzing open datasets to explore consumer behavior and market trends.\nReading engineering post-mortems from data teams at Uber, Netflix, and DoorDash.\nExploring system architecture patterns and open-source tooling.\n\n\nCheck Out My Projects → Get in Touch"
+  },
+  {
+    "objectID": "pages/about.html#hi-there",
+    "href": "pages/about.html#hi-there",
+    "title": "Jadey Ryan",
+    "section": "Hi there! ",
+    "text": "Hi there! \nThanks for visiting my website – I’m happy you’re here!\nI’m the data scientist for the Natural Resources and Agricultural Sciences section within the Washington State Department of Agriculture. I’ve had a long academic journey through the world of nature, with degrees in Biology (BS), Environmental Studies (BA), and Land Resources & Environmental Sciences (MS).\nMy guiding principles in life are kindness, authenticity, sustainability, and inclusivity. I finally feel like I’ve found my happy place in life working in the environmental data science space and connecting with so many amazing folks in the R and open-source community.\nI designed cat & code themed t-shirts to wear as conversation starters at posit::conf(2023). The positive feedback led me to start a small business: the coding cats. I channel creativity and my love for cats and coding into designs for clothing, mugs, and tote bags. Check out my Etsy shop.\nWhen it comes to work, I love improving the efficiency and reproducibility of our workflows. I’m also in my element when developing decision-support tools with Quarto and Shiny. In my downtime, I’m happiest hanging out with my husband and our three snowshoe Siamese cats. We love exploring new food spots and the great outdoors.\nThanks for being a part of my journey. I’m by no means an expert at anything, but I plan on using this space to learn out loud!\n\n\n\nFrom left to right: Tai, Mai, and Skye"
+  }
+]
