@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/pages/projects.html",
-    "items": []
-  },
-  {
     "listing": "/projects.html",
     "items": [
       "/projects/customerSegmentation/index.html",
