@@ -1,7 +1,7 @@
 # This file controls the global layout, themes, and navigation bar of your website. 
 project:
   type: website
-  output-dir: docs   # Tells Quarto to output final files into a "docs" folder
+  output-dir: "docs"   # Tells Quarto to output final files into a "docs" folder
 
 website:
   title: "Mann"
