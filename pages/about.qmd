@@ -1,27 +1,122 @@
 ---
-title: "ABOUT Mann"
-subtitle: "Aspiring Data Scientist"
+title: "Mann"
+# subtitle: "Aspiring Data Scientist"
+subtitle: "Unlocking business value through advanced data analysis and machine learning."
 about:
-  template: jolla    # "jolla" centers your headshot and social buttons beautifully
+  template: trestles    # "jolla" centers your headshot and social buttons beautifully
   image: ../assets/profile.jpg # Put a clear headshot in your root folder
+  image-shape: round
+  image-width: 13em
+  id: hero-heading
+  # image-width: 15em 
   links:
     - icon: email
       text: 📧Email
       href: mailto:mannk7062@gmail.com
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: http://www.linkedin.com/in/mann-32718a1b9
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/mann-lean
+page-layout: article
+
 ---
 
-## 👋 Hello!
-I am a recent Data Science graduate passionate about turning messy datasets into actionable business insights. I specialize in predictive modeling, exploratory data analysis (EDA), and machine learning pipelines.
 
-### 🎓 Education
-- **B.S. in Data Science** | University of Analytics (2022 - 2026)
+::: {#hero-heading}
 
-### 🛠️ Technical Toolkit
-- **Languages:** Python (Pandas, NumPy, Scikit-Learn), SQL, R
-- **Tools:** Git, Tableau, Docker, Jupyter Notebooks
+## The Journey So Far
+My technical foundation began with a Diploma in Computer Engineering, which established the systems-level thinking I carried into my B.Tech in Artificial Intelligence and Data Science. Early internship experience provided a strong grounding in dataset cleaning, exploratory data analysis, and feature engineering. However, I quickly realized that building impactful data solutions required moving beyond isolated model training.
+
+Driven to bridge the gap between statistical modeling and usable software, I independently upskilled in MLOps, full-stack integration, and Generative AI orchestration. This self-directed focus shifted my trajectory from writing standard analytical scripts to engineering containerized, end-to-end systems. Today, my work focuses on deploying robust applications—from the tracking and versioning of the NYC Taxi Tip Predictor to the interactive dashboards of my E-Commerce Customer Segmentation engine and the NLP integrations powering the TalentFit Shortlister..
+:::
+
+---
+
+## Technical Philosophy & Principles
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<div class="principle-card">
+  <div class="principle-icon"><i class="bi bi-box-seam"></i></div>
+  <h4>Production-First Mindset</h4>
+  <p>A high-accuracy model is useless if it cannot be served reliably. I prioritize containerization with Docker, deterministic environments, and lightweight API endpoints.</p>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<div class="principle-card">
+  <div class="principle-icon"><i class="bi bi-graph-up-arrow"></i></div>
+  <h4>Business Value Over Complexity</h4>
+  <p>The best algorithm is the one that solves the business bottleneck with the lowest maintenance burden. Simple, interpretable baselines always come first.</p>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<div class="principle-card">
+  <div class="principle-icon"><i class="bi bi-arrow-repeat"></i></div>
+  <h4>Reproducible Workflows</h4>
+  <p>Data science requires strict version control. From data versioning with DVC to experiment tracking via MLflow, every step must be auditable and reproducible.</p>
+</div>
+:::
+
+:::
+
+---
+
+## Experience & Milestones
+
+```{=html}
+<div class="timeline">
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-date">2025 - Present</div>
+    <div class="timeline-content">
+      <h4>Production ML & Pipeline Engineering</h4>
+      <p class="timeline-sub">Independent Applied Research & Projects</p>
+      <p>Built and deployed production-grade applications including an RFM Customer Intelligence Engine and containerized taxi fare regression services with automated CI/CD.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-date">2022 - 2025</div>
+    <div class="timeline-content">
+      <h4>Bachelor of Technology (B.Tech)</h4>
+      <p class="timeline-sub">Artificial Intelligence and Data Science</p>
+      <p>Focused on applied mathematics, AI,ML,DL,RDBMS ,Big Data.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-date">2019 - 2022</div>
+    <div class="timeline-content">
+      <h4>Diploma in Computer Engineering</h4>
+      <p class="timeline-sub">Computer Engineering</p>
+      <p>Focused on applied mathematics, data structures, algorithms, C++,Java,CN,DBMS & etc.</p>
+    </div>
+  </div>
+
+</div>
+ 
+```
+
+---
+
+## Beyond the Terminal
+
+When I am not training models or optimizing SQL queries, you will usually find me:
+
+- Analyzing open datasets to explore consumer behavior and market trends.
+- Reading engineering post-mortems from data teams at Uber, Netflix, and DoorDash.
+- Exploring system architecture patterns and open-source tooling.
+
+::: {.text-center .mt-5}
+[**Check Out My Projects →**](../projects.html){.btn .btn-primary style="border-radius: 24px; padding: 0.6rem 1.6rem; font-weight: 600;"}
+[**Get in Touch**](contact.html){.btn .btn-outline-secondary style="border-radius: 24px; padding: 0.6rem 1.6rem; margin-left: 0.75rem;"}
+:::
+
