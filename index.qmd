@@ -20,7 +20,7 @@ about:
       text: 🔗Contact
       href: pages/contact.qmd
 ---
-::: {style="margin-top: -35px;"}
+::: {style="margin-top: 1rem;"}
 I build production-grade machine learning pipelines, containerized inference APIs, and executive business intelligence dashboards. Focused on reproducible training workflows, MLOps best practices, and measurable business metrics.
 :::
 
