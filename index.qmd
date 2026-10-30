@@ -16,6 +16,9 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/mann-lean
+    - icon: Contact
+      text: 🔗Contact
+      href: pages/contact.qmd
 ---
 ::: {style="margin-top: -35px;"}
 I build production-grade machine learning pipelines, containerized inference APIs, and executive business intelligence dashboards. Focused on reproducible training workflows, MLOps best practices, and measurable business metrics.
