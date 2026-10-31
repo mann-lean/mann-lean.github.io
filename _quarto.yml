@@ -26,8 +26,8 @@ website:
 format:
   html:
     theme:      # Try clean technical themes like cosmo, flatly, or slate
-      light: flatly
-      dark: darkly
+      light: [flatly,css/styles.scss]
+      dark: [darkly,css/styles.scss]
 
     # toc: true        # Generates a table of contents for pages
     css: css/styles.scss
